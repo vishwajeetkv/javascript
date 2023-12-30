@@ -16,6 +16,5 @@ because of issue in block scope and functional scope
 */
 
 
-console.table
-([accountID, accountEmail, accountpassword, accountcity ])
+console.table([accountID, accountEmail, accountpassword, accountcity ])
 
