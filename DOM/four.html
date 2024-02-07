@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>verma</title>
+</head>
+<body style="background-color: rgb(82, 78, 78); color: #fff">
+    <ul class="language">
+        <li>javascript</li>
+    </ul>
+</body>
+<script>
+    function addLanguage(langName){
+        const li = document.createElement('li');
+    li.innerHTML = `${langName}`
+    
+    document.querySelector('.language').
+    appendChild(li)
+}
+
+addLanguage("Python")
+addLanguage("typescipt")
+
+function addOptiLanguage(langName){
+const li = document.createElement('li');
+li.appendChild(document.createTextNode(langName))
+
+document.querySelector('.language').appendChild(li)
+}
+
+addOptiLanguage('golang')
+
+// Edit
+const secondLang = document.querySelector("li:nth-child(2)")
+console.log(secondLang);
+
+
+secondLang.innerHTML= "Mojo"
+
+
+
+
+
+
+const new1 = document.createElement('li')
+newli.textContent = "Mojo"
+secondLang.replacewith(newli)
+
+
+// Edit
+const firstLang = document.querySelector("li:first-child")
+firstLang.outerHtml = '<li>typeScript'
+
+
+// remove 
+
+    const lastLang = document.querySelector('li:last-child')
+    lastLang.remove()
+
+
+
+
+
+
+</script>
+</html>
