@@ -15,7 +15,7 @@ Object literal
 - constructor function
 - Prototypes
 - Classes
-- Instances(new , this
+- Instances(new , this)
 
 # 4 Pillars
 
