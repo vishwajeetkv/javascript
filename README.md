@@ -1,4 +1,3 @@
-# javascript
-Basics of javascript
-Projects
+#A Code repo of javascript
+
 
