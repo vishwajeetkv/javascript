@@ -13,7 +13,7 @@ class User {
 }
 
 const vishwajeet = new User("vishwajeet")
-// console.log(vishwajeet.createId())
+console.log(vishwajeet.createId())
 
 
 
